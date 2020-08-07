@@ -1,5 +1,5 @@
-##About me
+## About me
 
-##News
+## News
 
-##Publications
+## Publications

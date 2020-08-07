@@ -10,46 +10,69 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 
 ## Publications
 
-
 **Synchronized Network Snapshots.** Nofel Yaseen, John Sonchack, Vincent Liu. Sigcomm 2018.
 
 **In-network Computing to The Rescue of Faulty Links.** Hans Geisen, Lei Shi, John Sonchack, Anirudh Chelluri, Nishanth Prabhu, Nik Sultana, Latha Kant, Anthony J. McAuley, Alexander Poylisher, Andre DeHon, Boon Thau Loo. NetCompute 2018.
 
 **Scaling Hardware Accelerated Network Monitoring to Concurrent and Dynamic Queries With \*Flow.** John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith. ATC 2018.
 
+**Packet-Level Analytics in Software without Compromises.** Oliver Michel, John Sonchack, Adam J. Aviv, Eric Keller, Jonathan M. Smith. Hotcloud 2018.
+
+**TurboFlow: Information Rich Flow Record Generation on Commodity Switches.** John Sonchack, Adam J. Aviv, Eric Keller, Jonathan M. Smith. EuroSys 2018.
+
+**Predictable Packet Processing with PathMiner.** John Sonchack and Jonathan M. Smith. BAR 2018.
+
+**Enabling Practical SDN Security Applications with OFX (The OpenFlow eXtension Framework).** John Sonchack, Adam J. Aviv, Eric Keller, and Jonathan M. Smith. Proceedings of the 2016 Network and Distributed System Security Symposium (NDSS).
+
+**Timing Based Reconniasance and Defense in Software-defined Networks.** John Sonchack, Anurag Dubey, Adam J. Aviv, Eric Keller, and Jonathan M. Smith. Proceedings of the 32nd Annual Computer Security Applications Conference (ACSAC).
+
+**Exploring Large Scale Security System Reproducibility with the LESS Simulator.** John Sonchack and Adam J. Aviv. Journal of Computer Security (JCS).
+    
+**Timing SDN Control Planes to Infer Network Configurations.** John Sonchack, Adam J. Aviv, and Eric Keller. Proceedings of the ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec).
+
+**OFX: Enabling OpenFlow Extensions for Switch-Level Security Applications.** John Sonchack, Adam J. Aviv, Eric Keller, and Jonathan M. Smith. Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security (CCS).
+
+**Cross-domain Collaboration for Improved IDS Rule Set Selection.** John Sonchack and Adam J. Aviv. Journal of Information Security and Applications 24 (JISA).
+
+**LESS Is More: Host-Agent Based Simulator for Large-Scale Evaluation of Security Systems.** John Sonchack and Adam J. Aviv. Proceedings of ESORICS 2014.
+
+**Bridging the Data Gap: Data Related Challenges in Evaluating Large Scale Collaborative Security Systems**. John Sonchack, Adam J. Aviv, and Johnathan M. Smith. In the proceedings of the 6th Workshop on Cyber Security Evaluation and Testing (CSET).
+
+**Signature Correlations in Multiple Honeypot Defense System.** John Sonchack and Johnathan M. Smith. Future Internet Workshop.
+
 <!-- 
     
     
 
     
-    ** Packet-Level Analytics in Software without Compromises. ** 
+**Packet-Level Analytics in Software without Compromises.** 
 Oliver Michel, John Sonchack, Adam J. Aviv, Eric Keller, Jonathan M. 
 Smith. Hotcloud 2018.
     
 
     
-    ** TurboFlow: Information Rich Flow Record Generation on Commodity 
-Switches. ** John Sonchack, Adam J. Aviv, Eric Keller, Jonathan M. 
+**TurboFlow: Information Rich Flow Record Generation on Commodity 
+Switches.** John Sonchack, Adam J. Aviv, Eric Keller, Jonathan M. 
 Smith. EuroSys 2018.
     
 
     
-    ** Predictable Packet Processing with PathMiner. ** John Sonchack 
+**Predictable Packet Processing with PathMiner.** John Sonchack 
 and Jonathan M. Smith. BAR 2018.
     
 
     <h4> 2016 </h4>
     
-    ** Enabling Practical SDN Security Applications with OFX (The 
+**Enabling Practical SDN Security Applications with OFX (The 
 OpenFlow 
-    eXtension Framework). ** John Sonchack, Adam J. Aviv, Eric Keller, 
+    eXtension Framework).** John Sonchack, Adam J. Aviv, Eric Keller, 
 and Jonathan M. Smith. Proceedings of the 
     2016 Network and Distributed System Security Symposium (NDSS).
     
 
     
-    ** Timing Based Reconniasance and Defense in Software-defined 
-Networks. ** 
+**Timing Based Reconniasance and Defense in Software-defined 
+Networks.** 
     John Sonchack, Anurag Dubey, Adam J. Aviv, Eric Keller, and Jonathan 
 M. Smith. Proceedings of the 
     32nd Annual Computer Security Applications Conference (ACSAC).
@@ -57,7 +80,7 @@ M. Smith. Proceedings of the
 
     
     **Exploring Large Scale Security System Reproducibility with the 
-LESS Simulator. ** John Sonchack and Adam J. Aviv. Journal of Computer 
+LESS Simulator.** John Sonchack and Adam J. Aviv. Journal of Computer 
 Security (JCS).
     
 
@@ -70,9 +93,9 @@ Network Function Virtualization (SDN-NFV Sec).
 
     <h4> 2015 </h4>
     
-    **<i>(short paper)</i> OFX: Enabling OpenFlow Extensions for 
+    **<i>(short paper)</i> **OFX: Enabling OpenFlow Extensions for 
 Switch-Level Security 
-    Applications. ** John Sonchack, Adam J. Aviv, Eric Keller, 
+    Applications.** John Sonchack, Adam J. Aviv, Eric Keller, 
     and Jonathan M. Smith. Proceedings of the 22nd ACM SIGSAC Conference 
 on Computer and Communications Security (CCS).
     
@@ -85,14 +108,14 @@ Security and Applications 24 (JISA).
 
     <h4> 2014 </h4>
     
-    ** LESS Is More: Host-Agent Based Simulator for Large-Scale 
+**LESS Is More: Host-Agent Based Simulator for Large-Scale 
 Evaluation 
-    of Security Systems. ** John Sonchack and Adam J. Aviv. 
+    of Security Systems.** John Sonchack and Adam J. Aviv. 
 Proceedings of ESORICS 2014.             
     
                 <h4>2013</h4>
                 
-                ** Bridging the Data Gap: Data Related Challenges in 
+            **Bridging the Data Gap: Data Related Challenges in 
     Evaluating Large Scale Collaborative Security Systems**. John 
     Sonchack, Adam J. Aviv, and Johnathan M. Smith. In the proceedings 
 of 

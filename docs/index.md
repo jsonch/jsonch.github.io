@@ -11,24 +11,14 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 ## Publications
 
 
-    ** Synchronized Network Snapshots. ** Nofel Yaseen, John Sonchack, Vincent Liu. Sigcomm 2018.
+**Synchronized Network Snapshots.** Nofel Yaseen, John Sonchack, Vincent Liu. Sigcomm 2018.
 
-    ** In-network Computing to The Rescue of Faulty Links. ** Hans Geisen, Lei Shi, John Sonchack, Anirudh Chelluri, Nishanth Prabhu, Nik Sultana, Latha Kant, Anthony J. McAuley, Alexander Poylisher, Andre DeHon, Boon Thau Loo. NetCompute 2018.
+**In-network Computing to The Rescue of Faulty Links.** Hans Geisen, Lei Shi, John Sonchack, Anirudh Chelluri, Nishanth Prabhu, Nik Sultana, Latha Kant, Anthony J. McAuley, Alexander Poylisher, Andre DeHon, Boon Thau Loo. NetCompute 2018.
 
+**Scaling Hardware Accelerated Network Monitoring to Concurrent and Dynamic Queries With \*Flow.** John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith. ATC 2018.
 
 <!-- 
     
-    ** In-network Computing to The Rescue of Faulty Links. ** Hans 
-Geisen, Lei Shi, John Sonchack, Anirudh Chelluri, Nishanth Prabhu, Nik 
-Sultana, Latha Kant, Anthony J. McAuley, Alexander Poylisher, Andre 
-DeHon, Boon Thau Loo. NetCompute 2018.
-    
-
-
-    
-    ** Scaling Hardware Accelerated Network Monitoring to Concurrent 
-and Dynamic Queries With *Flow. ** John Sonchack, Oliver Michel, Adam 
-J. Aviv, Eric Keller, Jonathan M. Smith. ATC 2018.
     
 
     

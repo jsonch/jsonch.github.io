@@ -10,6 +10,14 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 
 ## Publications
 
+**Mantis: Reactive Programmable Switches** Liangcheng Yu, John Sonchack, Vincent Liu. NSDI 2020.
+
+**tpprof: A Network Traffic Pattern Profiler** Nofel Yaseen, John Sonchack, Vincent Liu. NSDI 2020.
+
+**Ignis: scaling distribution-oblivious systems with light-touch distribution.** Nikos Vasilakis, Ben Karel, Yash Palkhiwala, John Sonchack, Andre DeHon, and Jonathan M Smith (2019). PLDI 2019.
+
+**TMC: Pay-as-you-Go Distributed Communication** Henri Maxime Demoulin, Nikos Vasilakis, John Sonchack, Isaac Pedisich, Vincent Liu, Boon Thau Loo, Linh Thi Xuan Phan, Jonathan M. Smith, and Irene Zhang. AP-NET 2019.
+
 **Synchronized Network Snapshots.** Nofel Yaseen, John Sonchack, Vincent Liu. Sigcomm 2018.
 
 **In-network Computing to The Rescue of Faulty Links.** Hans Geisen, Lei Shi, John Sonchack, Anirudh Chelluri, Nishanth Prabhu, Nik Sultana, Latha Kant, Anthony J. McAuley, Alexander Poylisher, Andre DeHon, Boon Thau Loo. NetCompute 2018.

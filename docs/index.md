@@ -8,7 +8,7 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 
 ## Publications
 
-**Mantis: Reactive Programmable Switches.** Liangcheng Yu, John Sonchack, Vincent Liu. NSDI 2020.
+**Mantis: Reactive Programmable Switches.** Liangcheng Yu, John Sonchack, Vincent Liu. Sigcomm 2020.
 
 **Balancing Performance and Flexibility in Hybrid Network Telemetry Systems.** John Sonchack. Dissertation, University of Pennsylvania 2020.
 

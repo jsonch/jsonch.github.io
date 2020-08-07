@@ -12,6 +12,8 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 
 **Mantis: Reactive Programmable Switches** Liangcheng Yu, John Sonchack, Vincent Liu. NSDI 2020.
 
+**Balancing Performance and Flexibility in Hybrid Network Telemetry Systems** John Sonchack. Dissertation, University of Pennsylvania 2020.
+
 **tpprof: A Network Traffic Pattern Profiler** Nofel Yaseen, John Sonchack, Vincent Liu. NSDI 2020.
 
 **Ignis: scaling distribution-oblivious systems with light-touch distribution.** Nikos Vasilakis, Ben Karel, Yash Palkhiwala, John Sonchack, Andre DeHon, and Jonathan M Smith (2019). PLDI 2019.

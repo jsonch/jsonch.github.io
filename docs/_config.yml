@@ -2,3 +2,6 @@ theme: jekyll-theme-midnight
 name: John Sonchack's Research Homepage
 title: John Sonchack
 markdown: GFM
+relative_links:
+  enabled: true
+  collections: true

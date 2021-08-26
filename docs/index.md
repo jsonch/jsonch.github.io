@@ -2,11 +2,17 @@
 
 I'm postdoctoral researcher at Princeton University, working with Jennifer Rexford and David Walker. I got my PhD at the University of Pennsylvania, where I was advised by Jonathan M. Smith and also worked closely with Andre DeHon, Boon Tau Loo, Vincent Liu, Eric Keller, and Adam Aviv. Before that, I completed an MSE in computer science at the University of Pennsylvania and a BS in mathematics at Villanova University. 
 
-Broadly, my research interests are in networking, security, and distributed systems. My current projects focus on making high performance networks more capable, easier to program, and more secure. My dissertation was on balancing performance and flexibility in hybrid telemetry systems. Prior to that, I did research on accelerating and modeling network security systems and, as an undergraduate, quantitative finance. 
+My main project right now is Lucid, a high-level language for programming reconfigurable switch data paths. Lucid is a language that abstracts both the primitives that we use to write line-rate packet processors, and also the architectural constraints that we have to reason about while we write those line rate programs. Lucid's optimizing compiler also encodes many of the tricks that I've learned over the years for writing efficient Tofino code. Its an ongoing project, but if you're a data-plane developer, check it out at the [Sigcomm paper](https://dl.acm.org/doi/10.1145/3452296.3472903) and [Github page](https://github.com/PrincetonUniversity/lucid). 
+
+More broadly, my research interests are in networking, security, and distributed systems. My dissertation was on balancing performance and flexibility in hybrid telemetry systems. Prior to that, I did research on accelerating and modeling network security systems and, as an undergraduate, quantitative finance. 
 
 I enjoy interdisciplinary research and often draw from areas including reconfigurable computing, machine learning, and programming languages. 		
 
 ## Publications
+
+**Lucid: A Language for Control in the Data Plane.** John Sonchack, Devon Loehr, Jennifer Rexford, and David Walker. Sigcomm 2021.
+
+**Flightplan: Dataplane Disaggregation and Placement for P4 Programs.** Nik Sultana, John Sonchack, Hans Giesen, Isaac Pedisich, Zhaoyang Han, Nishanth Shyamkumar, Shivani Burad, André DeHon, and Boon Thau Loo. NSDI 2021.
 
 **Mantis: Reactive Programmable Switches.** Liangcheng Yu, John Sonchack, Vincent Liu. Sigcomm 2020.
 

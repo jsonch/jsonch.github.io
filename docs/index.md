@@ -8,7 +8,7 @@ My other recent areas of interest include telemetry, network security, and low-o
 
 ## Publications
 
-**Automated Optimization of Parameterized Data-Plane Programs with Parasol.** Mary Hogan, Devon Loehr, John Sonchack, Shir Landau Feibish, Jennifer Rexford, David Walker, Mina Tahmasbi Arashloo, et al. IEEE/ACM Transactions on Networking (ToN) 2025.
+**Automated Optimization of Parameterized Data-Plane Programs with Parasol.** Mary Hogan, Devon Loehr, John Sonchack, Shir Landau Feibish, Jennifer Rexford, David Walker. IEEE/ACM Transactions on Networking (ToN) 2025.
 
 **Beaver: Practical Partial Snapshots for Distributed Cloud Services.** Liangcheng Yu, Xiao Zhang, Haoran Zhang, John Sonchack, Dan Ports, and Vincent Liu. OSDI 2024.
 

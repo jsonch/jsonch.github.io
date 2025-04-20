@@ -1,14 +1,22 @@
 ## About Me
 
-I'm an Associate Research Scholar at Princeton University, working at the intersection of hardware-accelerated networking, programming languages, and security. Some of the people I work closely with here at Princeton are Jennifer Rexford, David Walker, Pamela Zave, and Devon Loehr. I got my PhD at the University of Pennsylvania, where I was advised by Jonathan M. Smith and also worked closely with Andre DeHon, Boon Tau Loo, Vincent Liu, Eric Keller, and Adam Aviv. Before that, I completed an MSE in computer science at the University of Pennsylvania and a BS in mathematics at Villanova University. 
+I'm an Associate Research Scholar at Princeton University, interested in many areas related to networking and distributed systems. I enjoy taking a multi-disciplinary and collaborative approach, where we start by finding the best tools to solve our specific problem. Lately I've been focused on using programming languages, compilers, and verification systems to make programming the network data plane easier and safer. 
 
-My main project right now is Lucid, a high-level language for programming configurable pipeline packet processors (e.g., the Intel Tofino). Lucid is about making the experience of programming these exotic architectures feel more like software engineering -- for example, it takes around 10X fewer lines of code to implement many data structures in Lucid vs. P4. Lucid has simple and composeable primitives, a type system that prevents you from combining those primitives in ways that are fundamentally incompatible with the underlying hardware, an interpreter for testing your algorithms, and an optimizing compiler that encodes many of the tricks that I've learned over the years for writing efficient packet processor code. Its an ongoing project, check it out at the [Sigcomm paper](https://dl.acm.org/doi/10.1145/3452296.3472903) and [Github page](https://github.com/PrincetonUniversity/lucid).
+I’m also passionate about evolving research projects into open source tools that accelerate innovation and lower barriers of entry to novel technology. One example is [Lucid](https://dl.acm.org/doi/10.1145/3452296.3472903), a high-level language for programming terabit-rate P4 switches that I developed with Devon Loehr, Jennifer Rexford, David Walker, Mary Hogan, Andrew Johnson, and others. In the past few years we have evolved Lucid ([Github repo](https://github.com/PrincetonUniversity/lucid)) into a platform that has enabled over a dozen interesting research projects at multiple universities, and a bunch of follow up work in our own research groups.
 
-More broadly, my research interests are in networking, security, and distributed systems. My dissertation was on balancing performance and flexibility in hybrid telemetry systems. Prior to that, I did research on accelerating and modeling network security systems and, as an undergraduate, quantitative finance. 
-
-I enjoy interdisciplinary research and often draw from areas including reconfigurable computing, machine learning, and programming languages. 		
+My other recent areas of interest include telemetry, network security, and low-overhead distributed control. I like to think about the intersection of these areas with machine learning, both as an application to support and a tool to use. My PhD dissertation (2020) was on balancing performance and flexibility in telemetry systems, advised by Jonathan M. Smith at The University of Pennsylvania. Some of the other collaborators that I have had the pleasure of working closely with in these areas include Liangcheng Yu, Oliver Michel, Nofel Yaseen, Hyojoon Kim, Vincent Liu, Nik Sultana, Joel Hypolite, Boon Tau Loo, Andre DeHon, Eric Keller, and Adam Aviv. 
 
 ## Publications
+
+**Automated Optimization of Parameterized Data-Plane Programs with Parasol.** Mary Hogan, Devon Loehr, John Sonchack, Shir Landau Feibish, Jennifer Rexford, David Walker, Mina Tahmasbi Arashloo, et al. IEEE/ACM Transactions on Networking (ToN) 2025.
+
+**Beaver: Practical Partial Snapshots for Distributed Cloud Services.** Liangcheng Yu, Xiao Zhang, Haoran Zhang, John Sonchack, Dan Ports, and Vincent Liu. OSDI 2024.
+
+**SwitchLog: A Logic Programming Language for Network Switches.** Vaibhav Mehta, Devon Loehr, John Sonchack, and David Walker. Practical Aspects of Declarative Languages 2023.
+
+**Cebinae: Scalable In-Network Fairness Augmentation.** Liangcheng Yu, John Sonchack, and Vincent Liu. SIGCOMM 2022.
+
+**OrbWeaver: Using IDLE Cycles in Programmable Networks for Opportunistic Coordination.** Liangcheng Yu, John Sonchack, and Vincent Liu. NSDI 2022.
 
 **Lucid: A Language for Control in the Data Plane.** John Sonchack, Devon Loehr, Jennifer Rexford, and David Walker. Sigcomm 2021.
 
@@ -50,9 +58,9 @@ I enjoy interdisciplinary research and often draw from areas including reconfigu
 
 **LESS Is More: Host-Agent Based Simulator for Large-Scale Evaluation of Security Systems.** John Sonchack and Adam J. Aviv. Proceedings of ESORICS 2014.
 
-**Bridging the Data Gap: Data Related Challenges in Evaluating Large Scale Collaborative Security Systems**. John Sonchack, Adam J. Aviv, and Johnathan M. Smith. In the proceedings of the 6th Workshop on Cyber Security Evaluation and Testing (CSET).
+**Bridging the Data Gap: Data Related Challenges in Evaluating Large Scale Collaborative Security Systems**. John Sonchack, Adam J. Aviv, and Johnathan M. Smith. In the proceedings of the 6th Workshop on Cyber Security Evaluation and Testing (CSET). 2013.
 
-**Signature Correlations in Multiple Honeypot Defense System.** John Sonchack and Johnathan M. Smith. Future Internet Workshop.
+**Signature Correlations in Multiple Honeypot Defense System.** John Sonchack and Johnathan M. Smith. Future Internet Workshop. 2011
 
 <!-- 
     

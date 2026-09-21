@@ -1,0 +1,52 @@
+// Globals: an IntArray, a module wrapping one in a record, and an event
+// family parameterized by the array it operates on.
+include <memops.lcd>;
+
+type pkt_t = { uint8 kind; uint32 idx; uint32 val; };
+
+// A module that owns state: a record type with a global field, a
+// constructor (runs in a global initializer), and operations.
+module counter {
+  type t = { IntArray.t counts; uint32 size; };
+
+  fun t create(comptime uint32 size) {
+    return t { counts = IntArray.create(size); size = size; };
+  }
+
+  fun void bump(t c, uint32 idx) {
+    match idx < c.size with
+      | true -> IntArray.setm(c.counts, idx, memops.incr, 1);
+      | _ -> drop();
+  }
+}
+
+// Async access to any IntArray: one instance (and tag) per array.
+module IntArrayAsync {
+  event getAsync(IntArray.t arr, uint32 idx);
+  event getResult(IntArray.t arr, uint32 idx, uint32 val);
+
+  handle getAsync(IntArray.t arr, uint32 idx) {
+    generate_port(ingress_port(), getResult(arr, idx, IntArray.get(arr, idx)));
+  }
+
+  handle getResult(IntArray.t arr, uint32 idx, uint32 val) {
+    drop();
+  }
+}
+
+global IntArray.t hits = IntArray.create(4);
+global counter.t c = counter.create(8);
+
+event touch@1(pkt_t p);
+
+handle touch(pkt_t p) {
+  match p.kind with
+    | 0 -> IntArray.set(hits, p.idx, p.val);
+    | 1 -> counter.bump(c, p.idx);
+    | 2 -> generate(IntArrayAsync.getAsync(hits, p.idx));
+    | _ -> generate(IntArrayAsync.getAsync(c.counts, p.idx));
+}
+
+parser main(bitstring pkt) {
+  continue dispatch_event(pkt);
+}

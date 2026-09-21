@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 #### Dockerize lucid build environment ####
 # This script compiles and executes Lucid in a docker image, 

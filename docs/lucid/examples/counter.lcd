@@ -1,18 +1,19 @@
-// Globals: an IntArray, a module wrapping one in a record, and an event
-// family parameterized by the array it operates on.
 include <memops.lcd>;
 
+// record type, like a struct
 type pkt_t = { uint8 kind; uint32 idx; uint32 val; };
 
-// A module that owns state: a record type with a global field, a
-// constructor (runs in a global initializer), and operations.
+// a module is similar to a namespace
 module counter {
+  // the type of a counter's data
   type t = { IntArray.t counts; uint32 size; };
 
+  // create a counter
   fun t create(comptime uint32 size) {
     return t { counts = IntArray.create(size); size = size; };
   }
 
+  // operationo on a counter
   fun void bump(t c, uint32 idx) {
     match idx < c.size with
       | true -> IntArray.setm(c.counts, idx, memops.incr, 1);
@@ -20,7 +21,7 @@ module counter {
   }
 }
 
-// Async access to any IntArray: one instance (and tag) per array.
+// helper operations on an intarray in a module
 module IntArrayAsync {
   event getAsync(IntArray.t arr, uint32 idx);
   event getResult(IntArray.t arr, uint32 idx, uint32 val);
@@ -33,9 +34,10 @@ module IntArrayAsync {
     drop();
   }
 }
-
+// allocate some globals, shared across processing
 global IntArray.t hits = IntArray.create(4);
 global counter.t c = counter.create(8);
+
 
 event touch@1(pkt_t p);
 
